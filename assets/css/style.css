@@ -1,0 +1,56 @@
+html {box-sizing: border-box;
+    box-sizing: inherit;
+}
+header {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    height:100%;
+    margin: 0 auto;
+    background: #ffffff ;
+    border-bottom: 1px solid #cccccc;
+    overflow: auto;
+    padding:20px 10px 0px 10px;
+}
+
+#myname{
+    position: relative;
+    left: 200px;
+    float:left;
+    width:200px;
+    margin: 0px;
+    background: #4aaaa5;
+    color:#ffffff;
+    padding: 20px 0px 20px 0px;
+    font-size: 28px;
+    text-align: center;
+    overflow: auto;
+}
+#navbar{ 
+    position: relative;
+    top:20px;
+    right:200px;
+    float: right;
+    width:250px;
+    height:20px;
+}
+#links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    font-size: 20px;
+    overflow:visible;
+    text-align: right;
+
+}
+.right{
+    width:200px;
+    height:40px;
+}
+li {
+    display: inline;
+    border-right: 1px solid #cccccc;
+    padding: 10px;
+
+
+}

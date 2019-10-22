@@ -1,6 +1,9 @@
 html {box-sizing: border-box;
     box-sizing: inherit;
 }
+body{
+    background-image: url("../images/prism.png");
+}
 header {
     position: relative;
     display: block;
@@ -41,7 +44,7 @@ header {
     font-size: 20px;
     overflow:visible;
     text-align: right;
-
+    
 }
 .right{
     width:200px;
@@ -53,4 +56,60 @@ li {
     padding: 10px;
 
 
+}
+a:link {
+    text-decoration: none;
+    color: #777777;
+}
+a:visited {
+    text-decoration: none;
+    color: #777777;
+}
+
+#aboutmecontent{
+    width: 960px;
+    max-height: 960px;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    bottom:30px;
+    left: 200px;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+}
+#aboutme{
+    padding:20px
+}
+h1 {
+    width:880px;
+    border-bottom: 2px solid #cccccc;
+    padding:0px 0px 10px 20px;
+    margin:0;
+}
+p{
+    padding: 20px;
+    font-size: 20px;
+    text-indent: 50px;
+    box-sizing: content-box;
+    
+}
+.headshot{
+    float:left;
+    width: 100px;
+    height: 100px;
+    padding:15px;
+
+}
+
+input {
+    width:95%;
+}
+
+#submitbutton{
+    width: 10%;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    border: none;
+    cursor: pointer;
+    
 }

@@ -4,6 +4,9 @@ html {box-sizing: border-box;
 body{
     background-image: url("../images/prism.png");
 }
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
 header {
     position: relative;
     display: block;
@@ -12,13 +15,17 @@ header {
     margin: 0 auto;
     background: #ffffff ;
     border-bottom: 1px solid #cccccc;
-    overflow: auto;
+    overflow: hidden;
     padding:20px 10px 0px 10px;
 }
-
+.bar1{
+    position: relative;
+    left:200px;
+    max-width: 960px;
+    height:100%;
+}
 #myname{
     position: relative;
-    left: 200px;
     float:left;
     width:200px;
     margin: 0px;
@@ -27,23 +34,19 @@ header {
     padding: 20px 0px 20px 0px;
     font-size: 28px;
     text-align: center;
-    overflow: auto;
+    overflow: hidden;
 }
-#navbar{ 
-    position: relative;
-    top:20px;
-    right:200px;
-    float: right;
-    width:250px;
-    height:20px;
-}
+
 #links{
     list-style-type: none;
     margin: 0;
     padding: 0px;
     font-size: 20px;
-    overflow:visible;
-    text-align: right;
+    overflow: hidden;
+    text-align: left;
+    float: right;
+    position: relative;
+    
     
 }
 .right{
@@ -51,10 +54,9 @@ header {
     height:40px;
 }
 li {
-    display: inline;
     border-right: 1px solid #cccccc;
     padding: 10px;
-
+    float: left;
 
 }
 a:link {
@@ -66,8 +68,8 @@ a:visited {
     color: #777777;
 }
 
-#aboutmecontent{
-    width: 960px;
+#contentarea{
+    max-width: 960px;
     max-height: 960px;
     padding: 20px;
     position: relative;
@@ -77,20 +79,31 @@ a:visited {
     border: 1px solid #cccccc;
     background: #ffffff;
 }
+#Aboutmetitle{
+    margin: 10px 0px 0px 0px;
+}
 #aboutme{
-    padding:20px
-}
-h1 {
-    width:880px;
+    width: 916px ;
     border-bottom: 2px solid #cccccc;
-    padding:0px 0px 10px 20px;
-    margin:0;
+    padding: 0px 0px 10px 0px;
+    margin: 0;
+    color: #4aaaa5;
 }
-p{
+    
+#Contacttitle {
+    width: 916px ;
+    border-bottom: 2px solid #cccccc;
+    padding: 0px 0px 10px 0px;
+    margin: 0;
+    color: #4aaaa5;
+}
+#bio{
     padding: 20px;
     font-size: 20px;
     text-indent: 50px;
     box-sizing: content-box;
+    line-height: 1.2;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     
 }
 .headshot{
@@ -105,11 +118,30 @@ input {
     width:95%;
 }
 
+#message{
+    width: 916px;
+    height: 200px;
+
+}
 #submitbutton{
     width: 10%;
+    height: 40px;
     background-color: #4aaaa5;
     color:#ffffff;
     border: none;
     cursor: pointer;
     
+}
+#Foot1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    border-top: 8px solid #4aaaa5;
+    background-color: gray;
+}
+#copyright {
+    color: #ffffff;
+    text-align: center;
 }

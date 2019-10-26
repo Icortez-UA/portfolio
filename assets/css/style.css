@@ -84,6 +84,7 @@ li a:visited {
     border: 1px solid #cccccc;
     background: #ffffff;
     float: left;
+    margin-bottom: 80px;
 }
 #Aboutmetitle{
     margin: 10px 0px 0px 0px;
@@ -185,7 +186,6 @@ div.content img {
     clear: both;
 }
 
-}
 #Foot1 {
     position: fixed;
     left: 0;
